@@ -58,9 +58,9 @@ Fluidd won't let you save a new printer if it can't confirm moonraker is running
 confirm a moonraker printer instance, try browsing directly to the moonraker API;
 
 ```yaml
-http://myprinter.local/server/info
+http://192.168.61.184/server/info
 # or;
-http://myprinter.local:7125/server/info
+http://192.168.62.184:7125/server/info
 ```
 
 Be sure to replace `myprinter.local` with the host you're trying to connect to.
